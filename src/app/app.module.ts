@@ -19,6 +19,6 @@ import { CoreModule } from './core.module';
     CoreModule
   ],
   bootstrap: [AppComponent],
-  // providers: [LoggingService]
+
 })
 export class AppModule {}
