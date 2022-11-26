@@ -39,11 +39,11 @@
     </div>
   </div>
 </nav> -->
-<div class="nav">
+<div class="nav" >
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      <a routerLink="/" class="navbar-brand">Home</a>
+      <a style="float: inherit;" routerLink="/" class="navbar-brand">Home</a>
     </div>
   </div>
   <div class="nav-btn">
@@ -61,7 +61,7 @@
           <a routerLink="/recipes">Recipes</a>
         </li>
         <li routerLinkActive="active" *ngIf="!isAuthenticated">
-          <a routerLink="/auth">Authenticate</a>
+          <a routerLink="/auth">Login</a>
         </li>
         <li routerLinkActive="active">
           <a routerLink="/shopping-list">Shopping List</a>
