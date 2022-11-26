@@ -1,8 +1,10 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a routerLink="/" class="navbar-brand">Recipe Book</a>
+      <a routerLink="/" class="navbar-brand">Home</a>
     </div>
+
+    <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
 
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
